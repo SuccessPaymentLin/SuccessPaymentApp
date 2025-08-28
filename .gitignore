@@ -1,0 +1,25 @@
+﻿# Android/Gradle
+.gradle/
+.idea/
+*.iml
+/local.properties
+/.classpath
+/.project
+/.settings/
+/captures/
+/outputs/
+/build/
+**/build/
+app/release/
+*.log
+# Keystores & secrets (do NOT commit signing keys)
+*.keystore
+*.jks
+*.properties
+*.env
+google-services.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
