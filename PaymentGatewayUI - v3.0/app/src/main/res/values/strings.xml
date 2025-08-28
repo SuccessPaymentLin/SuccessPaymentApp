@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Success Payment</string>
+    <string name="select_payment_type">Select Payment Type</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="button_continue">Continue</string>
+    <string name="success_logo_desc">Success logo</string>
+    <string name="hint_enter_amount">Enter Amount</string>
+    <string name="next_button_text">Next</string>
+    <string name="pre_authorization">Pre-Authorization</string>
+    <string name="authorization">Authorization</string>
+    <string name="refund">Refund</string>
+</resources>

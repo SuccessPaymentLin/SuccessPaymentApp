@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- LOGO IMAGE -->
+
+    <!-- AMOUNT TEXT -->
+    <ImageView
+        android:id="@+id/successlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="385dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/amountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="€0.00"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- CONFIRM BUTTON -->
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+
+    <!-- CANCEL BUTTON -->
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

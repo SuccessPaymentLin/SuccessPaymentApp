@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_gold">#D4AF37</color>
+    <color name="brand_blue">#1F6FEB</color>
+    <color name="brand_blue_dark">#144EB5</color>
+    <color name="brand_blue_light">#4C8FFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="on_brand_blue">#FFFFFF</color>
+</resources>

@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/logoimage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnPreAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pre_authorization"
+        android:background="@drawable/rounded_button_brand_blue"
+        android:textColor="#D4AF37"
+        android:minHeight="48dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnAuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/authorization"
+        android:background="@drawable/rounded_button_brand_blue"
+        android:textColor="#D4AF37"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnRefund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/refund"
+        android:background="@drawable/rounded_button_brand_blue"
+        android:textColor="#D4AF37"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:padding="12dp" />
+
+</LinearLayout>

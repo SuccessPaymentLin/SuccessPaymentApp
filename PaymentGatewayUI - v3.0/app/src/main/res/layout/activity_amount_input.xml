@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/logoimage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/editAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_enter_amount"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:autofillHints="username" />
+
+    <EditText
+        android:id="@+id/editOrderId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Order ID"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="12dp"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnNextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Payment QR"
+        android:background="@drawable/rounded_button_brand_blue"
+        android:textColor="#D4AF37"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

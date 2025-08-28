@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- Static failure icon/message -->
+    <TextView
+        android:id="@+id/failureTitle"
+        android:text="❌ Payment Failed!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <!-- Dynamic message from Intent -->
+    <TextView
+        android:id="@+id/failureMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="An error occurred"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <!-- Retry button -->
+    <Button
+        android:id="@+id/tryAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try Again" />
+</LinearLayout>

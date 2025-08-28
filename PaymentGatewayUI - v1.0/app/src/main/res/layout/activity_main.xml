@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/app_name"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Transaction Type Buttons -->
+        <Button
+            android:id="@+id/btnPreAuth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pre-Authorization"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnAuth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Authorization"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnRefund"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Refund"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Amount Input -->
+        <EditText
+            android:id="@+id/amountInput"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter amount"
+            android:inputType="numberDecimal"
+            android:layout_margin="16dp"
+            android:maxLength="10" />
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next" />
+    </LinearLayout>
+</ScrollView>

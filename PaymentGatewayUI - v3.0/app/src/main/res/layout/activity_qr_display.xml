@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <!-- 🔥 Success Payment Logo -->
+    <ImageView
+        android:id="@+id/successLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:contentDescription="Success Payment Logo"
+        android:layout_marginBottom="16dp"
+        android:adjustViewBounds="true" />
+
+    <!-- QR Code Display -->
+    <ImageView
+        android:id="@+id/qrCodeImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter" />
+
+    <!-- WebView (hidden, used to detect redirect) -->
+    <WebView
+        android:id="@+id/paymentWebView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone" />
+
+    <!-- Result Message -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:paddingTop="24dp"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PaymentGatewayUI" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+    <style name="BrandButton">
+        <item name="android:background">@drawable/rounded_button_brand_blue</item>
+        <item name="android:textColor">@color/brand_gold</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:layout_marginTop">12dp</item> <!-- optional spacing -->
+    </style>
+</resources>
